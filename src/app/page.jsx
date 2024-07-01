@@ -1,3 +1,4 @@
+import BlogSection from "@/components/BlogSection";
 import Header from "@/components/Header";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
       <main className="container mx-auto">
         <Header />
+        <BlogSection />
       </main>
     </>
   );
