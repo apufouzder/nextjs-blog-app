@@ -25,6 +25,8 @@ export async function POST(request) {
     await writeFile(path, buffer);
     const imgUrl = `/${timestamp}_${image.name}`;
 
+    console.log(imgUrl);
+
     const blogData = {
         title: `${formData.get('title')}`,
         description: `${formData.get('description')}`,

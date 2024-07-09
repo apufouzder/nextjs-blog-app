@@ -10,8 +10,8 @@ export default function AddBlogPage() {
         title: "",
         description: "",
         category: "",
-        author: "../../../assets/apu.png",
-        authorImg: "",
+        author: "",
+        authorImg: "../../../assets/apu.png",
     });
 
     const handleChange = (e) => {
@@ -42,7 +42,7 @@ export default function AddBlogPage() {
                 description: "",
                 category: "",
                 author: "",
-                authorImg: "",
+                authorImg: "../../../assets/apu.png",
             })
             setImage(false);
         } else {
